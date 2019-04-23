@@ -1,0 +1,2898 @@
+@import url('https://use.typekit.net/yxu3nud.css');
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    position: fixed;
+    top: 71px;
+    left: 60px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo-text {
+    font-family: goldenbook;
+    color: #A73734;
+    font-size: 12px;
+    line-height: 0.8;
+    height: auto;
+    letter-spacing: 19px;
+    font-weight: 400;
+    margin-left: 25px;
+}
+
+
+.logo-img {
+    display:block;
+    width: 46px;
+}
+
+.page-title {
+    font-family:goldenbook;
+    font-size:51px;
+    font-weight:300;
+    letter-spacing: 49.5px;
+    color: #A73734;
+    position: absolute;
+    top: 210px;
+    left: 266px;
+    z-index: 1;
+overflow: hidden; /* Ensures the content is not revealed until the animation */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: 49.5px; /* Adjust as needed */
+        animation: typing 5s steps(40, end);
+       
+    }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+
+.proj-d {
+    font-family: goldenbook;
+    font-size: 10px;
+    letter-spacing: 8.5px;
+    font-weight:400;
+    color: #A73734;
+    top: 268px;
+    left: 266px;
+    position: absolute;
+    z-index:2;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 8.5px; /* Adjust as needed */
+    animation: typing2 5s steps(40, end);
+   
+}
+@keyframes typing2 {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+.list{
+    top:170px;
+    left:130.5px;
+    z-index: -2;
+}
+
+.proj {
+    position:fixed;
+    display: flex;
+    top:208px;
+    left: 130.5px;
+    line-height: 45px;
+    font-family: goldenbook;
+    font-weight: 300;
+    letter-spacing: 10.78px;
+    font-size: 10px;
+    text-decoration: none;
+    color:black;
+    
+}
+.proj a {
+
+    text-decoration: none;
+    color: black;
+    
+}
+
+.list-item-1 {
+    letter-spacing: 9.28px;
+}
+
+.list-item-2 {
+    letter-spacing: 10.78px;
+}
+.list-item-3 {
+    letter-spacing: 9.28px;
+}
+
+.list-item-4 {
+    letter-spacing: 23.01px;
+}
+
+.list-item-5 {
+    letter-spacing: 6px;
+}
+.list-item-6 {
+    letter-spacing: 6.2px;
+}
+
+.list-item-7 {
+    letter-spacing: 13px;
+}
+
+.list-item-8 {
+    letter-spacing: 13px;
+}
+
+.list-item-9 {
+    letter-spacing: 13px;
+}
+
+.list-item-10 {
+    letter-spacing: 13px;
+}
+
+
+
+.links {
+    display: flex;
+    flex-direction: column;
+    text-align: justify; 
+    
+}
+
+
+.work
+{
+list-style: none;
+position:absolute;
+left: -58px;
+top: 290px;
+text-decoration: none;
+-webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg); 
+position: fixed;
+
+}
+.work li a {
+    font-size:24px;
+    letter-spacing: 40.2px;
+    font-family: goldenbook;
+    font-weight: 300;
+    text-decoration: none;
+    color:black;
+   
+    
+}
+
+.about
+{
+list-style: none;
+position:absolute;
+left: 1220px;
+top: 294px;
+text-decoration: none;
+-webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg); 
+position: fixed;
+
+}
+.about li a {
+    font-size:24px;
+    letter-spacing: 27.8px;
+    font-family: goldenbook;
+    font-weight: 300;
+    text-decoration: none;
+    color:black;
+   
+}
+
+.projimage {
+    left: 500px;
+    top: 70px;
+}
+
+
+.projimage {
+    left: 10px;
+    top: 60px;
+    overflow:auto;
+    height:100px;
+    width:100px;
+}
+
+.kirst-img {
+    position: absolute;
+    height: 500px;
+    left: 0px;
+    top: 113px;
+    z-index: -1;
+    overflow: hidden;
+
+}
+
+.testbar {
+    position: fixed;
+    height: 200px;;
+    
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    z-index: -1;
+}
+
+
+.test {
+    position: fixed;
+    height: 320px;
+    left: -780px;
+    top: 608;
+  
+   opacity: 1%;
+}
+
+.text2 {
+    position: fixed;
+    height: 200px;;
+    
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    z-index: -1;
+}
+
+
+.text2 {
+    position: fixed;
+    height: 320px;
+    left: -780px;
+    top: 608;
+  
+   opacity: 1%;
+}
+
+
+.text {
+    position: fixed;
+    height: 200px;;
+    
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    
+}
+
+
+
+.textb {
+    position: absolute;
+    height: 200px;
+    left: -809px;
+    top: 560;
+   
+}
+.okok {
+    position: fixed;
+    height: 200px;;
+    z-index: 6;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    
+}
+
+
+
+
+
+.okokb {
+    position: absolute;
+    height: 460px;
+    left: -800px;
+    top: 1150;
+   z-index: 6;
+}
+
+.bio {
+    position: absolute;
+    height: 200px;;
+    
+    
+}
+
+
+
+.biob {
+    position: absolute;
+    height: 284px;
+    left: 190px;
+    top: 465;
+   
+}
+@media screen and (max-width: 1920px){
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+        .logo {
+            position: fixed;
+            top: 71px;
+            left: 70px;
+            display: flex;
+            align-items: center;
+            z-index: 1;
+        }
+        
+        .logo-text {
+            font-family: goldenbook;
+            color: #A73734;
+            font-size: 12px;
+            line-height: 0.8;
+            height: auto;
+            letter-spacing: 19px;
+            font-weight: 400;
+            margin-left: 25px;
+        }
+        
+        
+        .logo-img {
+            display:block;
+            width: 46px;
+        }
+        
+        .page-title {
+            font-family:goldenbook;
+            font-size:74px;
+            font-weight:300;
+            letter-spacing: 49.5px;
+            color: #A73734;
+            position: absolute;
+            top: 207px;
+            left: 276px;
+            z-index: 1;
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+                white-space: nowrap; /* Keeps the content on a single line */
+                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+                letter-spacing: 49.5px; /* Adjust as needed */
+                animation: typing 5s steps(40, end);
+            
+            }
+            @keyframes typing {
+                from { width: 0 }
+                to { width: 100% }
+            }
+        
+        .proj-d {
+            font-family: goldenbook;
+            font-size: 11px;
+            letter-spacing: 8.5px;
+            font-weight:400;
+            color: #A73734;
+            top: 313px;
+            left: 276px;
+            position: absolute;
+            z-index:2;
+            overflow: hidden; /* Ensures the content is not revealed until the animation */
+            white-space: nowrap; /* Keeps the content on a single line */
+            margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+            letter-spacing: 10.5px; /* Adjust as needed */
+            animation: typing2 5s steps(40, end);
+        
+        }
+        @keyframes typing2 {
+            from { width: 0 }
+            to { width: 100% }
+        }
+        
+        .list{
+            top:170px;
+            left:130.5px;
+            z-index: -2;
+        }
+        
+        .proj {
+            position:fixed;
+            display: flex;
+            top:208px;
+            left: 140.5px;
+            line-height: 45px;
+            font-family: goldenbook;
+            font-weight: 300;
+            letter-spacing: 10.78px;
+            font-size: 10px;
+            text-decoration: none;
+            color:black;
+            
+        }
+        .proj a {
+        
+            text-decoration: none;
+            color: black;
+            
+        }
+        
+        .list-item-1 {
+            letter-spacing: 9.28px;
+        }
+        
+        .list-item-2 {
+            letter-spacing: 10.78px;
+        }
+        .list-item-3 {
+            letter-spacing: 9.28px;
+        }
+        
+        .list-item-4 {
+            letter-spacing: 23.01px;
+        }
+        
+        .list-item-5 {
+            letter-spacing: 6px;
+        }
+        .list-item-6 {
+            letter-spacing: 6.2px;
+        }
+        
+        .list-item-7 {
+            letter-spacing: 13px;
+        }
+        
+        .list-item-8 {
+            letter-spacing: 13px;
+        }
+        
+        .list-item-9 {
+            letter-spacing: 13px;
+        }
+        
+        .list-item-10 {
+            letter-spacing: 13px;
+        }
+        
+        
+        
+        .links {
+            display: flex;
+            flex-direction: column;
+            text-align: justify; 
+            
+        }
+        
+        
+        .work
+        {
+        list-style: none;
+        position:absolute;
+        left: -48px;
+        top: 290px;
+        text-decoration: none;
+        -webkit-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        position: fixed;
+        
+        }
+        .work li a {
+            font-size:24px;
+            letter-spacing: 40.2px;
+            font-family: goldenbook;
+            font-weight: 300;
+            text-decoration: none;
+            color:black;
+        
+            
+        }
+        
+        .about
+        {
+        list-style: none;
+        position:absolute;
+        left: 1690px;
+        top: 294px;
+        text-decoration: none;
+        -webkit-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        position: fixed;
+        
+        }
+        .about li a {
+            font-size:24px;
+            letter-spacing: 27.8px;
+            font-family: goldenbook;
+            font-weight: 300;
+            text-decoration: none;
+            color:black;
+        
+        }
+        
+        .projimage {
+            left: 510px;
+            top: 70px;
+        }
+        
+        .kirst-img {
+            position: absolute;
+            height: 1110px;
+            left: 851px;
+            top: 60px;
+        }
+        
+        
+        .testbar {
+            position: fixed;
+            height: 200px;;
+            
+            -webkit-transform: rotate(-90deg); 
+            -moz-transform: rotate(-90deg); 
+            z-index: -1;
+        }
+        
+        
+        .test {
+            position: fixed;
+            height: 515px;
+            left: -1280px;
+            top: 616;
+        
+        opacity: 1%;
+        }
+        
+        .text2 {
+            position: fixed;
+            height: 200px;;
+            white-space: nowrap;
+            -webkit-transform: rotate(-90deg); 
+            -moz-transform: rotate(-90deg); 
+            z-index: -1;
+        }
+        
+        
+        .text2 {
+            position: fixed;
+            height: 260px;
+            left: -780px;
+            top: 608;
+            white-space: nowrap;
+        opacity: 1%;
+        }
+        
+        
+        .text {
+            position: fixed;
+            height: 200px;;
+            
+            -webkit-transform: rotate(-90deg); 
+            -moz-transform: rotate(-90deg); 
+            
+        }
+        
+        
+        
+        .textb {
+            position: absolute;
+            height: 200px;
+            left: -1009px;
+            top: 800;
+        
+        }
+        .okok {
+            position: fixed;
+            height: 200px;;
+            z-index: 6;
+            -webkit-transform: rotate(-90deg); 
+            -moz-transform: rotate(-90deg); 
+            
+        }
+        
+        
+        
+        
+        
+        .okokb {
+            position: absolute;
+            height: 560px;
+            left: -1200px;
+            top: 1350;
+        z-index: 6;
+        }
+        
+        .bio {
+            position: absolute;
+            height: 200px;;
+            
+            
+        }
+        
+        
+        
+        .biob {
+            position: absolute;
+            height: 284px;
+            left: 200px;
+            top: 465;
+        
+    
+
+    }
+    @media screen and (max-width: 1660px){
+        
+   
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .logo {
+            position: fixed;
+            top: 71px;
+            left: 60px;
+            display: flex;
+            align-items: center;
+            z-index: 1;
+        }
+        
+        .logo-text {
+            font-family: goldenbook;
+            color: #A73734;
+            font-size: 12px;
+            line-height: 0.8;
+            height: auto;
+            letter-spacing: 19px;
+            font-weight: 400;
+            margin-left: 25px;
+        }
+        
+        
+        .logo-img {
+            display:block;
+            width: 46px;
+        }
+        
+        .page-title {
+            font-family:goldenbook;
+            font-size:51px;
+            font-weight:300;
+            letter-spacing: 49.5px;
+            color: #A73734;
+            position: absolute;
+            top: 210px;
+            left: 266px;
+            z-index: 1;
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+                white-space: nowrap; /* Keeps the content on a single line */
+                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+                letter-spacing: 49.5px; /* Adjust as needed */
+                animation: typing 5s steps(40, end);
+               
+            }
+            @keyframes typing {
+                from { width: 0 }
+                to { width: 100% }
+              }
+        
+        .proj-d {
+            font-family: goldenbook;
+            font-size: 10px;
+            letter-spacing: 8.5px;
+            font-weight:400;
+            color: #A73734;
+            top: 268px;
+            left: 266px;
+            position: absolute;
+            z-index:2;
+            overflow: hidden; /* Ensures the content is not revealed until the animation */
+            white-space: nowrap; /* Keeps the content on a single line */
+            margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+            letter-spacing: 8.5px; /* Adjust as needed */
+            animation: typing2 5s steps(40, end);
+           
+        }
+        @keyframes typing2 {
+            from { width: 0 }
+            to { width: 100% }
+          }
+        
+        .list{
+            top:170px;
+            left:130.5px;
+            z-index: -2;
+        }
+        
+        .proj {
+            position:fixed;
+            display: flex;
+            top:208px;
+            left: 130.5px;
+            line-height: 45px;
+            font-family: goldenbook;
+            font-weight: 300;
+            letter-spacing: 10.78px;
+            font-size: 10px;
+            text-decoration: none;
+            color:black;
+            
+        }
+        .proj a {
+        
+            text-decoration: none;
+            color: black;
+            
+        }
+        
+        .list-item-1 {
+            letter-spacing: 9.28px;
+        }
+        
+        .list-item-2 {
+            letter-spacing: 10.78px;
+        }
+        .list-item-3 {
+            letter-spacing: 9.28px;
+        }
+        
+        .list-item-4 {
+            letter-spacing: 23.01px;
+        }
+        
+        .list-item-5 {
+            letter-spacing: 6px;
+        }
+        .list-item-6 {
+            letter-spacing: 6.2px;
+        }
+        
+        .list-item-7 {
+            letter-spacing: 13px;
+        }
+        
+        .list-item-8 {
+            letter-spacing: 13px;
+        }
+        
+        .list-item-9 {
+            letter-spacing: 13px;
+        }
+        
+        .list-item-10 {
+            letter-spacing: 13px;
+        }
+        
+        
+        
+        .links {
+            display: flex;
+            flex-direction: column;
+            text-align: justify; 
+            
+        }
+        
+        
+        .work
+        {
+        list-style: none;
+        position:absolute;
+        left: -58px;
+        top: 290px;
+        text-decoration: none;
+        -webkit-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        position: fixed;
+        
+        }
+        .work li a {
+            font-size:24px;
+            letter-spacing: 40.2px;
+            font-family: goldenbook;
+            font-weight: 300;
+            text-decoration: none;
+            color:black;
+           
+            
+        }
+        
+        .about
+        {
+        list-style: none;
+        position:absolute;
+        left: 1440px;
+        top: 294px;
+        text-decoration: none;
+        -webkit-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        position: fixed;
+        
+        }
+        .about li a {
+            font-size:24px;
+            letter-spacing: 27.8px;
+            font-family: goldenbook;
+            font-weight: 300;
+            text-decoration: none;
+            color:black;
+           
+        }
+        
+        .projimage {
+            left: 500px;
+            top: 70px;
+        }
+        
+        .kirst-img {
+            position: absolute;
+            height: 900px;
+            left: 755px;
+            top: 60px;
+        }
+        
+        
+        .testbar {
+            position: fixed;
+            height: 200px;;
+            
+            -webkit-transform: rotate(-90deg); 
+            -moz-transform: rotate(-90deg); 
+            z-index: -1;
+        }
+        
+        
+        .test {
+            position: fixed;
+            height: 320px;
+            left: -780px;
+            top: 608;
+          
+           opacity: 1%;
+        }
+        
+        .text2 {
+            position: fixed;
+            height: 200px;;
+            
+            -webkit-transform: rotate(-90deg); 
+            -moz-transform: rotate(-90deg); 
+            z-index: -1;
+        }
+        
+        
+        .text2 {
+            position: fixed;
+            height: 320px;
+            left: -780px;
+            top: 608;
+          
+           opacity: 1%;
+        }
+        
+        
+        .text {
+            position: fixed;
+            height: 200px;;
+            
+            -webkit-transform: rotate(-90deg); 
+            -moz-transform: rotate(-90deg); 
+            
+        }
+        
+        
+        
+        .textb {
+            position: absolute;
+            height: 200px;
+            left: -809px;
+            top: 560;
+           
+        }
+        .okok {
+            position: fixed;
+            height: 200px;;
+            z-index: 6;
+            -webkit-transform: rotate(-90deg); 
+            -moz-transform: rotate(-90deg); 
+            
+        }
+        
+        
+        
+        
+        
+        .okokb {
+            position: absolute;
+            height: 460px;
+            left: -780px;
+            top: 1280;
+           z-index: 6;
+        }
+        
+        .bio {
+            position: absolute;
+            height: 200px;;
+            
+            
+        }
+        
+        
+        
+        .biob {
+            position: absolute;
+            height: 284px;
+            left: 190px;
+            top: 465;
+           
+        }
+        }
+@media screen and (max-width: 1600px){
+        
+   
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    position: fixed;
+    top: 71px;
+    left: 60px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo-text {
+    font-family: goldenbook;
+    color: #A73734;
+    font-size: 12px;
+    line-height: 0.8;
+    height: auto;
+    letter-spacing: 19px;
+    font-weight: 400;
+    margin-left: 25px;
+}
+
+
+.logo-img {
+    display:block;
+    width: 46px;
+}
+
+.page-title {
+    font-family:goldenbook;
+    font-size:51px;
+    font-weight:300;
+    letter-spacing: 49.5px;
+    color: #A73734;
+    position: absolute;
+    top: 210px;
+    left: 266px;
+    z-index: 1;
+overflow: hidden; /* Ensures the content is not revealed until the animation */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: 49.5px; /* Adjust as needed */
+        animation: typing 5s steps(40, end);
+       
+    }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+
+.proj-d {
+    font-family: goldenbook;
+    font-size: 10px;
+    letter-spacing: 8.5px;
+    font-weight:400;
+    color: #A73734;
+    top: 268px;
+    left: 266px;
+    position: absolute;
+    z-index:2;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 8.5px; /* Adjust as needed */
+    animation: typing2 5s steps(40, end);
+   
+}
+@keyframes typing2 {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+.list{
+    top:170px;
+    left:130.5px;
+    z-index: -2;
+}
+
+.proj {
+    position:fixed;
+    display: flex;
+    top:208px;
+    left: 130.5px;
+    line-height: 45px;
+    font-family: goldenbook;
+    font-weight: 300;
+    letter-spacing: 10.78px;
+    font-size: 10px;
+    text-decoration: none;
+    color:black;
+    
+}
+.proj a {
+
+    text-decoration: none;
+    color: black;
+    
+}
+
+.list-item-1 {
+    letter-spacing: 9.28px;
+}
+
+.list-item-2 {
+    letter-spacing: 10.78px;
+}
+.list-item-3 {
+    letter-spacing: 9.28px;
+}
+
+.list-item-4 {
+    letter-spacing: 23.01px;
+}
+
+.list-item-5 {
+    letter-spacing: 6px;
+}
+.list-item-6 {
+    letter-spacing: 6.2px;
+}
+
+.list-item-7 {
+    letter-spacing: 13px;
+}
+
+.list-item-8 {
+    letter-spacing: 13px;
+}
+
+.list-item-9 {
+    letter-spacing: 13px;
+}
+
+.list-item-10 {
+    letter-spacing: 13px;
+}
+
+
+
+.links {
+    display: flex;
+    flex-direction: column;
+    text-align: justify; 
+    
+}
+
+
+.work
+{
+list-style: none;
+position:absolute;
+left: -58px;
+top: 290px;
+text-decoration: none;
+-webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg); 
+position: fixed;
+
+}
+.work li a {
+    font-size:24px;
+    letter-spacing: 40.2px;
+    font-family: goldenbook;
+    font-weight: 300;
+    text-decoration: none;
+    color:black;
+   
+    
+}
+
+.about
+{
+list-style: none;
+position:absolute;
+left: 1390px;
+top: 294px;
+text-decoration: none;
+-webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg); 
+position: fixed;
+
+}
+.about li a {
+    font-size:24px;
+    letter-spacing: 27.8px;
+    font-family: goldenbook;
+    font-weight: 300;
+    text-decoration: none;
+    color:black;
+   
+}
+
+.projimage {
+    left: 500px;
+    top: 70px;
+}
+
+.kirst-img {
+    position: absolute;
+    height: 900px;
+    left: 730px;
+    top: 60px;
+}
+
+
+.testbar {
+    position: fixed;
+    height: 200px;;
+    
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    z-index: -1;
+}
+
+
+.test {
+    position: fixed;
+    height: 320px;
+    left: -780px;
+    top: 608;
+  
+   opacity: 1%;
+}
+
+.text2 {
+    position: fixed;
+    height: 200px;;
+    
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    z-index: -1;
+}
+
+
+.text2 {
+    position: fixed;
+    height: 320px;
+    left: -780px;
+    top: 608;
+  
+   opacity: 1%;
+}
+
+
+.text {
+    position: fixed;
+    height: 200px;;
+    
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    
+}
+
+
+
+.textb {
+    position: absolute;
+    height: 200px;
+    left: -809px;
+    top: 560;
+   
+}
+.okok {
+    position: fixed;
+    height: 200px;;
+    z-index: 6;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    
+}
+
+
+
+
+
+.okokb {
+    position: absolute;
+    height: 460px;
+    left: -780px;
+    top: 1280;
+   z-index: 6;
+}
+
+.bio {
+    position: absolute;
+    height: 200px;;
+    
+    
+}
+
+
+
+.biob {
+    position: absolute;
+    height: 284px;
+    left: 190px;
+    top: 465;
+   
+}
+}
+
+@media screen and (max-width: 1440px){
+
+    html, body {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .logo {
+        position: fixed;
+        top: 71px;
+        left: 60px;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+    }
+    
+    .logo-text {
+        font-family: goldenbook;
+        color: #A73734;
+        font-size: 12px;
+        line-height: 0.8;
+        height: auto;
+        letter-spacing: 19px;
+        font-weight: 400;
+        margin-left: 25px;
+    }
+    
+    
+    .logo-img {
+        display:block;
+        width: 46px;
+    }
+    
+    .page-title {
+        font-family:goldenbook;
+        font-size:51px;
+        font-weight:300;
+        letter-spacing: 49.5px;
+        color: #A73734;
+        position: absolute;
+        top: 210px;
+        left: 266px;
+        z-index: 1;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+            white-space: nowrap; /* Keeps the content on a single line */
+            margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+            letter-spacing: 49.5px; /* Adjust as needed */
+            animation: typing 5s steps(40, end);
+           
+        }
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+          }
+    
+    .proj-d {
+        font-family: goldenbook;
+        font-size: 10px;
+        letter-spacing: 8.5px;
+        font-weight:400;
+        color: #A73734;
+        top: 268px;
+        left: 266px;
+        position: absolute;
+        z-index:2;
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: 8.5px; /* Adjust as needed */
+        animation: typing2 5s steps(40, end);
+       
+    }
+    @keyframes typing2 {
+        from { width: 0 }
+        to { width: 100% }
+      }
+    
+    .list{
+        top:170px;
+        left:130.5px;
+        z-index: -2;
+    }
+    
+    .proj {
+        position:fixed;
+        display: flex;
+        top:208px;
+        left: 130.5px;
+        line-height: 45px;
+        font-family: goldenbook;
+        font-weight: 300;
+        letter-spacing: 10.78px;
+        font-size: 10px;
+        text-decoration: none;
+        color:black;
+        
+    }
+    .proj a {
+    
+        text-decoration: none;
+        color: black;
+        
+    }
+    
+    .list-item-1 {
+        letter-spacing: 9.28px;
+    }
+    
+    .list-item-2 {
+        letter-spacing: 10.78px;
+    }
+    .list-item-3 {
+        letter-spacing: 9.28px;
+    }
+    
+    .list-item-4 {
+        letter-spacing: 23.01px;
+    }
+    
+    .list-item-5 {
+        letter-spacing: 6px;
+    }
+    .list-item-6 {
+        letter-spacing: 6.2px;
+    }
+    
+    .list-item-7 {
+        letter-spacing: 13px;
+    }
+    
+    .list-item-8 {
+        letter-spacing: 13px;
+    }
+    
+    .list-item-9 {
+        letter-spacing: 13px;
+    }
+    
+    .list-item-10 {
+        letter-spacing: 13px;
+    }
+    
+    
+    
+    .links {
+        display: flex;
+        flex-direction: column;
+        text-align: justify; 
+        
+    }
+    
+    
+    .work
+    {
+    list-style: none;
+    position:absolute;
+    left: -58px;
+    top: 290px;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    position: fixed;
+    
+    }
+    .work li a {
+        font-size:24px;
+        letter-spacing: 40.2px;
+        font-family: goldenbook;
+        font-weight: 300;
+        text-decoration: none;
+        color:black;
+       
+        
+    }
+    
+    .about
+    {
+    list-style: none;
+    position:absolute;
+    left: 1220px;
+    top: 294px;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    position: fixed;
+    
+    }
+    .about li a {
+        font-size:24px;
+        letter-spacing: 27.8px;
+        font-family: goldenbook;
+        font-weight: 300;
+        text-decoration: none;
+        color:black;
+       
+    }
+    
+    .projimage {
+        left: 500px;
+        top: 70px;
+    }
+    
+    .kirst-img {
+        position: absolute;
+        height: 850px;
+        left: 650px;
+        top: 60px;
+    }
+    
+    
+    .testbar {
+        position: fixed;
+        height: 200px;;
+        
+        -webkit-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        z-index: -1;
+    }
+    
+    
+    .test {
+        position: fixed;
+        height: 320px;
+        left: -780px;
+        top: 608;
+      
+       opacity: 1%;
+    }
+    
+    .text2 {
+        position: fixed;
+        height: 200px;;
+        
+        -webkit-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        z-index: -1;
+    }
+    
+    
+    .text2 {
+        position: fixed;
+        height: 320px;
+        left: -780px;
+        top: 608;
+      
+       opacity: 1%;
+    }
+    
+    
+    .text {
+        position: fixed;
+        height: 200px;;
+        
+        -webkit-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        
+    }
+    
+    
+    
+    .textb {
+        position: absolute;
+        height: 200px;
+        left: -809px;
+        top: 560;
+       
+    }
+    .okok {
+        position: fixed;
+        height: 200px;;
+        z-index: 6;
+        -webkit-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        
+    }
+    
+    
+    
+    
+    
+    .okokb {
+        position: absolute;
+        height: 460px;
+        left: -800px;
+        top: 1150;
+       z-index: 6;
+    }
+    
+    .bio {
+        position: absolute;
+        height: 200px;;
+        
+        
+    }
+    
+    
+    
+    .biob {
+        position: absolute;
+        height: 284px;
+        left: 190px;
+        top: 465;
+       
+    }
+}
+
+
+@media screen and (max-width: 1366px){
+    html, body {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .logo {
+        position: fixed;
+        top: 71px;
+        left: 40px;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+    }
+    
+    .logo-text {
+        font-family: goldenbook;
+        color: #A73734;
+        font-size: 12px;
+        line-height: 0.8;
+        height: auto;
+        letter-spacing: 19px;
+        font-weight: 400;
+        margin-left: 19px;
+    }
+    
+    
+    .logo-img {
+        display:block;
+        width: 46px;
+    }
+    
+    .page-title {
+        font-family:goldenbook;
+        font-size:51px;
+        font-weight:300;
+        letter-spacing: 49.5px;
+        color: #A73734;
+        position: absolute;
+        top: 170px;
+        left: 246px;
+        z-index: 1;
+    }
+    
+    .proj-d {
+        font-family: goldenbook;
+        font-size: 10px;
+        letter-spacing: 8.5px;
+        font-weight:400;
+        color: #A73734;
+        top: 259px;
+        left: 246px;
+        position: absolute;
+        z-index:2;
+    }
+    
+    
+    .list{
+        top:170px;
+        left:106px;
+        z-index: -2;
+    }
+    
+    .proj {
+        position:fixed;
+        display: flex;
+        top:208px;
+        left: 106px;
+        line-height: 45px;
+        font-family: goldenbook;
+        font-weight: 300;
+        letter-spacing: 10.78px;
+        font-size: 10px;
+        text-decoration: none;
+        color:black;
+        
+    }
+    .proj a {
+    
+        text-decoration: none;
+        color: black;
+        
+    }
+    
+    .list-item-1 {
+        letter-spacing: 9.28px;
+    }
+    
+    .list-item-2 {
+        letter-spacing: 10.78px;
+    }
+    .list-item-3 {
+        letter-spacing: 9.28px;
+    }
+    
+    .list-item-4 {
+        letter-spacing: 23.01px;
+    }
+    
+    .list-item-5 {
+        letter-spacing: 6px;
+    }
+    .list-item-6 {
+        letter-spacing: 6.2px;
+    }
+    
+    .list-item-7 {
+        letter-spacing: 13px;
+    }
+    
+    .list-item-8 {
+        letter-spacing: 13px;
+    }
+    
+    .list-item-9 {
+        letter-spacing: 13px;
+    }
+    
+    .list-item-10 {
+        letter-spacing: 13px;
+    }
+    
+    
+    
+    .links {
+        display: flex;
+        flex-direction: column;
+        text-align: justify; 
+        
+    }
+    
+    
+    .work
+    {
+    list-style: none;
+    position:absolute;
+    left: -78px;
+    top: 290px;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    position: fixed;
+    
+    }
+    .work li a {
+        font-size:24px;
+        letter-spacing: 40.2px;
+        font-family: goldenbook;
+        font-weight: 300;
+        text-decoration: none;
+        color:black;
+       
+        
+    }
+    
+    .about
+    {
+    list-style: none;
+    position:absolute;
+    left: 1178px;
+    top: 294px;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    position: fixed;
+    
+    }
+    .about li a {
+        font-size:24px;
+        letter-spacing: 27.8px;
+        font-family: goldenbook;
+        font-weight: 300;
+        text-decoration: none;
+        color:black;
+       
+    }
+    
+    .projimage {
+        left: 480px;
+        top: 70px;
+    }
+    
+    .kirst-img {
+        position: absolute;
+        height: 850px;
+        left: 630px;
+        top: 60px;
+    }
+    
+    
+    .testbar {
+        position: fixed;
+        height: 200px;;
+        
+        -webkit-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        z-index: -1;
+    }
+    
+    
+    .test {
+        position: fixed;
+        height: 320px;
+        left: -786px;
+        top: 588;
+      
+       opacity: 1%;
+    }
+    
+    
+  
+    
+    .text {
+        position: fixed;
+        height: 200px;;
+        
+        -webkit-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        
+    }
+    
+    
+    
+    .textb {
+        position: absolute;
+        height: 200px;
+        left: -809px;
+        top: 560;
+       
+    }
+    .okok {
+        position: fixed;
+        height: 200px;;
+        z-index: 6;
+        -webkit-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        
+    }
+    
+    
+    
+    
+    .okokb {
+        position: absolute;
+        height: 460px;
+        left: -800px;
+        top: 1150;
+       z-index: 6;
+    }
+    
+    .bio {
+        position: absolute;
+        height: 180px;;
+        
+        
+    }
+    
+    
+    
+    .biob {
+        position: absolute;
+        height: 284px;
+        left: 170px;
+        top: 465;
+       
+    }
+
+}
+
+@media screen and (max-width: 1280px){
+    html, body {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .logo {
+        position: fixed;
+        top: 71px;
+        left: 20px;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+    }
+    
+    .logo-text {
+        font-family: goldenbook;
+        color: #A73734;
+        font-size: 12px;
+        line-height: 0.8;
+        height: auto;
+        letter-spacing: 19px;
+        font-weight: 400;
+        margin-left: 19px;
+    }
+    
+    
+    .logo-img {
+        display:block;
+        width: 46px;
+    }
+    
+    .page-title {
+        font-family:goldenbook;
+        font-size:51px;
+        font-weight:300;
+        letter-spacing: 49.5px;
+        color: #A73734;
+        position: absolute;
+        top: 210px;
+        left: 227px;
+        z-index: 1;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+            white-space: nowrap; /* Keeps the content on a single line */
+            margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+            letter-spacing: 49.5px; /* Adjust as needed */
+            animation: typing 5s steps(40, end);
+           
+        }
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+          }
+    
+    .proj-d {
+        font-family: goldenbook;
+        font-size: 10px;
+        letter-spacing: 8.5px;
+        font-weight:400;
+        color: #A73734;
+        top: 269px;
+        left: 230px;
+        position: absolute;
+        z-index:2;
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: 8.5px; /* Adjust as needed */
+        animation: typing2 5s steps(40, end);
+       
+    }
+    @keyframes typing2 {
+        from { width: 0 }
+        to { width: 100% }
+      }
+    
+    
+    .list{
+        top:170px;
+        left:86px;
+        z-index: -2;
+    }
+    
+    .proj {
+        position:fixed;
+        display: flex;
+        top:208px;
+        left: 86px;
+        line-height: 45px;
+        font-family: goldenbook;
+        font-weight: 300;
+        letter-spacing: 10.78px;
+        font-size: 10px;
+        text-decoration: none;
+        color:black;
+        
+    }
+    .proj a {
+    
+        text-decoration: none;
+        color: black;
+        
+    }
+    
+    .list-item-1 {
+        letter-spacing: 9.28px;
+    }
+    
+    .list-item-2 {
+        letter-spacing: 10.78px;
+    }
+    .list-item-3 {
+        letter-spacing: 9.28px;
+    }
+    
+    .list-item-4 {
+        letter-spacing: 23.01px;
+    }
+    
+    .list-item-5 {
+        letter-spacing: 6px;
+    }
+    .list-item-6 {
+        letter-spacing: 6.2px;
+    }
+    
+    .list-item-7 {
+        letter-spacing: 13px;
+    }
+    
+    .list-item-8 {
+        letter-spacing: 13px;
+    }
+    
+    .list-item-9 {
+        letter-spacing: 13px;
+    }
+    
+    .list-item-10 {
+        letter-spacing: 13px;
+    }
+    
+    
+    
+    .links {
+        display: flex;
+        flex-direction: column;
+        text-align: justify; 
+        
+    }
+    
+    
+    .work
+    {
+    list-style: none;
+    position:absolute;
+    left: -98px;
+    top: 290px;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    position: fixed;
+    
+    }
+    .work li a {
+        font-size:24px;
+        letter-spacing: 40.2px;
+        font-family: goldenbook;
+        font-weight: 300;
+        text-decoration: none;
+        color:black;
+       
+        
+    }
+    
+    .about
+    {
+    list-style: none;
+    position:absolute;
+    left: 1110px;
+    top: 294px;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    position: fixed;
+    
+    }
+    .about li a {
+        font-size:24px;
+        letter-spacing: 27.8px;
+        font-family: goldenbook;
+        font-weight: 300;
+        text-decoration: none;
+        color:black;
+       
+    }
+    
+    .projimage {
+        left: 460px;
+        top: 70px;
+    }
+    
+    .kirst-img {
+        position: absolute;
+        height: 795px;
+        left: 611px;
+        top: 60px;
+    }
+    
+    
+    .testbar {
+        position: fixed;
+        height: 200px;;
+        
+        -webkit-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        z-index: -1;
+    }
+    
+    
+    .test {
+        position: fixed;
+        height: 320px;
+        left: -786px;
+        top: 560;
+      
+       opacity: 1%;
+    }
+    
+    
+    
+    .text {
+        position: fixed;
+        height: 200px;;
+        
+        -webkit-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        
+    }
+    
+    
+    
+    .textb {
+        position: absolute;
+        height: 200px;
+        left: -809px;
+        top: 560;
+       
+    }
+    .okok {
+        position: fixed;
+        height: 200px;;
+        z-index: 6;
+        -webkit-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        
+    }
+    
+    
+    
+   
+    .okokb {
+        position: absolute;
+        height: 460px;
+        left: -800px;
+        top: 1150;
+       z-index: 6;
+    }
+    
+    .bio {
+        position: absolute;
+        height: 180px;;
+        
+        
+    }
+    
+    
+    
+    .biob {
+        position: absolute;
+        height: 284px;
+        left: 145px;
+        top: 465;
+       
+    }
+
+
+}
+
+@media screen and (max-width: 1024px) { 
+    html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    position: fixed;
+    top: 71px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo-text {
+    font-family: goldenbook;
+    color: #A73734;
+    font-size: 12px;
+    line-height: 0.8;
+    height: auto;
+    letter-spacing: 19px;
+    font-weight: 400;
+    margin-left: 19px;
+}
+
+
+.logo-img {
+    display:block;
+    width: 46px;
+}
+
+.page-title {
+    font-family:goldenbook;
+    font-size:51px;
+    font-weight:300;
+    letter-spacing: 49.5px;
+    color: #A73734;
+    position: absolute;
+    top: 220px;
+    left: 266px;
+    z-index: 1;
+overflow: hidden; /* Ensures the content is not revealed until the animation */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: 49.5px; /* Adjust as needed */
+        animation: typing 5s steps(40, end);
+       
+    }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+
+.proj-d {
+    font-family: goldenbook;
+    font-size: 10px;
+    letter-spacing: 8.5px;
+    font-weight:400;
+    color: #A73734;
+    top: 278px;
+    left: 266px;
+    position: absolute;
+    z-index:2;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 8.5px; /* Adjust as needed */
+    animation: typing2 5s steps(40, end);
+   
+}
+@keyframes typing2 {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+
+
+.list{
+    top:130px;
+    left:81px;
+    z-index: -2;
+}
+
+.proj {
+    position:fixed;
+    display: flex;
+    top:168px;
+    left: 81px;
+    line-height: 45px;
+    font-family: goldenbook;
+    font-weight: 300;
+    letter-spacing: 10.78px;
+    font-size: 10px;
+    text-decoration: none;
+    color:black;
+    
+}
+.proj a {
+
+    text-decoration: none;
+    color: black;
+    
+}
+
+.list-item-1 {
+    letter-spacing: 9.28px;
+}
+
+.list-item-2 {
+    letter-spacing: 10.78px;
+}
+.list-item-3 {
+    letter-spacing: 9.28px;
+}
+
+.list-item-4 {
+    letter-spacing: 23.01px;
+}
+
+.list-item-5 {
+    letter-spacing: 6px;
+}
+.list-item-6 {
+    letter-spacing: 6.2px;
+}
+
+.list-item-7 {
+    letter-spacing: 13px;
+}
+
+.list-item-8 {
+    letter-spacing: 13px;
+}
+
+.list-item-9 {
+    letter-spacing: 13px;
+}
+
+.list-item-10 {
+    letter-spacing: 13px;
+}
+
+
+
+.links {
+    display: flex;
+    flex-direction: column;
+    text-align: justify; 
+    
+}
+
+
+.work
+{
+list-style: none;
+position:absolute;
+left: -93px;
+top: 252px;
+text-decoration: none;
+-webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg); 
+position: fixed;
+
+}
+.work li a {
+    font-size:24px;
+    letter-spacing: 40.2px;
+    font-family: goldenbook;
+    font-weight: 300;
+    text-decoration: none;
+    color:black;
+
+    
+}
+
+.about
+{
+list-style: none;
+position:absolute;
+left: 850px;
+top: 253px;
+text-decoration: none;
+-webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg); 
+position: fixed;
+z-index: 3;
+}
+.about li a {
+    font-size:24px;
+    letter-spacing: 27.8px;
+    font-family: goldenbook;
+    font-weight: 300;
+    text-decoration: none;
+    color:black;
+
+}
+
+.projimage {
+    left: 455px;
+    top: 70px;
+}
+
+.kirst-img {
+    position: absolute;
+    height: 1090px;
+    left: 208px;
+    top: 60px;
+}
+
+
+.testbar {
+    position: fixed;
+    height: 200px;;
+    
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    z-index: -1;
+}
+
+
+.test {
+    position: fixed;
+    height: 320px;
+    left: -1451px;
+    top: 130;
+
+opacity: 1%;
+}
+
+
+
+
+.text {
+    position: fixed;
+    height: 200px;;
+    
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    
+}
+
+
+
+.textb {
+    position: absolute;
+    height: 200px;
+    left: -814px;
+    top: 560;
+
+}
+.okok {
+    position: fixed;
+    height: 200px;;
+    z-index: 6;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    
+}
+
+
+
+
+
+.okokb {
+    position: absolute;
+    height: 460px;
+    left: -805px;
+    top: 1150;
+z-index: 6;
+}
+
+.bio {
+    position: absolute;
+    height: 180px;;
+    
+    
+}
+
+
+
+.biob {
+    position: absolute;
+    height: 284px;
+    left: 140px;
+    top: 465;
+
+}
+
+
+}
+
+@media screen and (max-width: 768px){
+    html, body {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .logo {
+        position: fixed;
+        top: 71px;
+        left: 15px;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+    }
+    
+    .logo-text {
+        font-family: goldenbook;
+        color: #A73734;
+        font-size: 12px;
+        line-height: 0.8;
+        height: auto;
+        letter-spacing: 19px;
+        font-weight: 400;
+        margin-left: 19px;
+    }
+    
+    
+    .logo-img {
+        display:block;
+        width: 46px;
+    }
+    
+    .page-title {
+        font-family:goldenbook;
+        font-size:51px;
+        font-weight:300;
+        letter-spacing: 49.5px;
+        color: #A73734;
+        position: absolute;
+        top: 170px;
+        left: 200px;
+        z-index: 1;
+    }
+    
+    .proj-d {
+        font-family: goldenbook;
+        font-size: 10px;
+        letter-spacing: 8.5px;
+        font-weight:400;
+        color: #A73734;
+        top: 259px;
+        left: 205px;
+        position: absolute;
+        z-index:2;
+    }
+    
+    
+    .list{
+        top:130px;
+        left:81px;
+        z-index: -2;
+    }
+    
+    .proj {
+        position:fixed;
+        display: flex;
+        top:168px;
+        left: 81px;
+        line-height: 45px;
+        font-family: goldenbook;
+        font-weight: 300;
+        letter-spacing: 10.78px;
+        font-size: 10px;
+        text-decoration: none;
+        color:black;
+        
+    }
+    .proj a {
+    
+        text-decoration: none;
+        color: black;
+        
+    }
+    
+    .list-item-1 {
+        letter-spacing: 9.28px;
+    }
+    
+    .list-item-2 {
+        letter-spacing: 10.78px;
+    }
+    .list-item-3 {
+        letter-spacing: 9.28px;
+    }
+    
+    .list-item-4 {
+        letter-spacing: 23.01px;
+    }
+    
+    .list-item-5 {
+        letter-spacing: 6px;
+    }
+    .list-item-6 {
+        letter-spacing: 6.2px;
+    }
+    
+    .list-item-7 {
+        letter-spacing: 13px;
+    }
+    
+    .list-item-8 {
+        letter-spacing: 13px;
+    }
+    
+    .list-item-9 {
+        letter-spacing: 13px;
+    }
+    
+    .list-item-10 {
+        letter-spacing: 13px;
+    }
+    
+    
+    
+    .links {
+        display: flex;
+        flex-direction: column;
+        text-align: justify; 
+        
+    }
+    
+    
+    .work
+    {
+    list-style: none;
+    position:absolute;
+    left: -93px;
+    top: 252px;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    position: fixed;
+    
+    }
+    .work li a {
+        font-size:24px;
+        letter-spacing: 40.2px;
+        font-family: goldenbook;
+        font-weight: 300;
+        text-decoration: none;
+        color:black;
+    
+        
+    }
+    
+    .about
+    {
+    list-style: none;
+    position:absolute;
+    left: 850px;
+    top: 253px;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    position: fixed;
+    z-index: 3;
+    }
+    .about li a {
+        font-size:24px;
+        letter-spacing: 27.8px;
+        font-family: goldenbook;
+        font-weight: 300;
+        text-decoration: none;
+        color:black;
+    
+    }
+    
+    .projimage {
+        left: 455px;
+        top: 70px;
+    }
+    
+    .kirst-img {
+        position: absolute;
+        height: 1090px;
+        left: 208px;
+        top: 60px;
+    }
+    
+    
+    .testbar {
+        position: fixed;
+        height: 200px;;
+        
+        -webkit-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        z-index: -1;
+    }
+    
+    
+    .test {
+        position: fixed;
+        height: 320px;
+        left: -1451px;
+        top: 130;
+    
+    opacity: 1%;
+    }
+    
+    
+    
+    
+    .text {
+        position: fixed;
+        height: 200px;;
+        
+        -webkit-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        
+    }
+    
+    
+    
+    .textb {
+        position: absolute;
+        height: 200px;
+        left: -814px;
+        top: 560;
+    
+    }
+    .okok {
+        position: fixed;
+        height: 200px;;
+        z-index: 6;
+        -webkit-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        
+    }
+    
+    
+    
+    
+    
+    .okokb {
+        position: absolute;
+        height: 460px;
+        left: -805px;
+        top: 1150;
+    z-index: 6;
+    }
+    
+    .bio {
+        position: absolute;
+        height: 180px;;
+        
+        
+    }
+    
+    
+    
+    .biob {
+        position: absolute;
+        height: 284px;
+        left: 140px;
+        top: 465;
+    
+    }
+
+}
+
+
+@media screen and (max-width: 375px) {
+    .logo {
+        position: fixed;
+        top: 20px;
+        left: -10px;
+        display: flex;
+       
+        z-index: 1;
+       
+    }
+    
+    .logo-text {
+        font-family: goldenbook;
+        color: #A73734;
+        font-size: 10px;
+        line-height: 0.8;
+        height: auto;
+        letter-spacing: 15.8px;
+        font-weight: 400;
+       
+        white-space: nowrap;
+        position: fixed;
+    }
+    
+    
+    .logo-img {
+       
+        width: 10px;
+        display: none;
+    }
+    .list{
+        top:170px;
+        left:130.5px;
+        z-index: -2;
+    }
+    .page-title {
+        font-family:goldenbook;
+        font-size:32px;
+        font-weight:300;
+        letter-spacing: 40px;
+        color: #A73734;
+        position: absolute;
+        top: 40px;
+        left: 6px;
+        z-index: 1;
+    }
+    .proj-d {
+        font-family: goldenbook;
+        font-size: 8px;
+        letter-spacing: 6px;
+        font-weight:400;
+        color: #A73734;
+        top: 100px;
+        left: 6px;
+        position: absolute;
+        z-index:2;
+        white-space: nowrap;
+    }
+    .proj {
+        position:fixed;
+        display: none;
+        top:130px;
+        left: 40px;
+        line-height: 40px;
+        font-family: goldenbook;
+        font-weight: 300;
+        letter-spacing: 10.78px;
+        font-size: 7px;
+        text-decoration: none;
+        color:black;
+        
+    }
+    .proj a {
+    
+        text-decoration: none;
+        color: black;
+        
+    }
+    
+    .list-item-1 {
+        letter-spacing: 9.28px;
+    }
+    
+    .list-item-2 {
+        letter-spacing: 10.78px;
+    }
+    .list-item-3 {
+        letter-spacing: 9.28px;
+    }
+    
+    .list-item-4 {
+        letter-spacing: 23.01px;
+    }
+    
+    .list-item-5 {
+        letter-spacing: 6px;
+    }
+    .list-item-6 {
+        letter-spacing: 6.2px;
+    }
+    
+    .list-item-7 {
+        letter-spacing: 13px;
+    }
+    
+    .list-item-8 {
+        letter-spacing: 13px;
+    }
+    
+    .list-item-9 {
+        letter-spacing: 13px;
+    }
+    
+    .list-item-10 {
+        letter-spacing: 13px;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        text-align: justify; 
+        
+    }
+    
+    
+    .work
+    {
+    list-style: none;
+    position:absolute;
+    left: -92px;
+    top: 200px;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    position: fixed;
+    
+    }
+    .work li a {
+        font-size:18px;
+        letter-spacing: 31px;
+        font-family: goldenbook;
+        font-weight: 300;
+        text-decoration: none;
+        color:black;
+       
+        
+    }
+    
+    .about
+    {
+    list-style: none;
+    position:absolute;
+    left: 240px;
+    top: 200px;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    position: fixed;
+    
+    }
+    .about li a {
+        font-size:18px;
+        letter-spacing: 26px;
+        font-family: goldenbook;
+        font-weight: 300;
+        text-decoration: none;
+        color:black;
+       
+    }
+    .projimage {
+        left: 10px;
+        top: 60px;
+    }
+    
+    .kirst-img {
+        position: absolute;
+        height: 500px;
+        left: 0px;
+        top: 113px;
+        z-index: -1;
+    }
+    .testbar {
+        position: fixed;
+        height: 100px;;
+        white-space: nowrap;
+        -webkit-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        z-index: -1;
+    }
+    
+    
+    .test {
+        position: fixed;
+        height: 230px;
+        left: -780px;
+        top: 329px;
+      
+       opacity: 1%;
+    }
+    .bio {
+        position: absolute;
+        height: 200px;;
+        
+        
+    }
+    
+    
+    
+    .biob {
+        position: absolute;
+        height: 284px;
+        left: -60px;
+        top: 560;
+       z-index: 2;
+        
+    }
+
+    .okok {
+        position: fixed;
+        height: 130px;;
+        z-index: 6;
+        -webkit-transform: rotate(-90deg); 
+        -moz-transform: rotate(-90deg); 
+        
+    }
+    
+    
+    
+    
+    
+    .okokb {
+        position: absolute;
+        height: 460px;
+        left: -580px;
+        top: 100;
+       z-index: 6;
+    }
+}
+}
